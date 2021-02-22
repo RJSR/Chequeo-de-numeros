@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chequeo de Números</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 
+        Aplicación para comprobar si una lista de 4 números son:
+        1) Pares o Impares. 2) Primos o no. 3) Positivos, negativos y neutros. 4) Múltiplos de 2
+        No debe permitir números repetidos
+        Mostrar el resultado usando document.write
+     -->
+    <!-- División para enmarcar todo en un recuadro -->
+    <div class = "cuadro"> 
+    <strong>Chequeo de Números</strong><br>
+    <br>Ingrese 4 números para calcular<br><br>
+    <!-- División para separar las casillas de ingreso -->
+    <div>
+        <input type="number" id ="num1" name="numero"><br><br>
+        <input type="number" id ="num2" name="numero"><br><br>
+        <input type="number" id ="num3" name="numero"><br><br>
+        <input type="number" id ="num4" name="numero"><br><br>
+    </div>
+    <!-- Botón para realizar la comprobación -->
+    <button onclick="calcular(event)">Calcular</button>
+    </div>
+</body>
+</html>

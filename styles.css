@@ -1,0 +1,87 @@
+/* Estilo general para el cuerpo del documento y de la ventana */
+body{
+    background-color: #383e56;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Estilo para el recuadro del documento */
+.cuadro{
+    display: block;
+    border-style: solid;
+    padding: 15px;
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #383e56;
+    margin-top: 60px;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.80), 0 6px 20px 0 rgba(0, 0, 0,0.75);
+}
+
+/* Estilo para el recuadro de la ventana creada */
+.cuadro2{
+    display: block;
+    border-style: solid;
+    padding: 15px;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #383e56;
+    margin-top: 60px;
+    border-width: 2px;
+    border-radius: 5px;
+    line-height: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.80), 0 6px 20px 0 rgba(0, 0, 0,0.75);
+}
+
+/* Estilo para el título del documento */
+strong{
+    font-size: 35px;
+    color: #fb743e;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Estilo para los resultados */
+span{
+    font-size: 17px;
+}
+
+/* Estilo para la casilla de entrada */
+input{
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+}
+
+/* Estilos para el botón de calcular */
+button{
+    background-color: #709fb0;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+    border-style: none;
+    color: whitesmoke;
+    width: 215px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: #a7c5eb;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+}
+
+button:active{
+    background-color: #e45826;
+}
